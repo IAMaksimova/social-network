@@ -1,0 +1,19 @@
+.App {
+  margin: 0 auto;
+  width: 1300px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 'h h'
+                       'n c';
+
+}
+
+.content-wrap{
+  grid-area: c;
+  background-color: darkkhaki;
+}
+
+
+
+

@@ -1,0 +1,9 @@
+.dialoguesWrap{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.people{
+    padding: 10px;
+}
+
+
